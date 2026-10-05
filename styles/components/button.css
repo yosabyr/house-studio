@@ -1,0 +1,26 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  height: var(--button-height);
+  padding: 20px 60px;
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--color-green);
+  white-space: nowrap;
+  border: var(--border);
+
+  &:hover {
+    color: var(--color-light-alt);
+    background-color: var(--color-green);
+    border-color: transparent;
+  }
+
+  &:active {
+    background-color: var(--color-dark-green);
+  }
+
+  &:focus-visible {
+    color: var(--color-green);
+    background-color: var(--color-light-green-alt);
+  }
+}

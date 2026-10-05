@@ -12,3 +12,22 @@
   margin-bottom: 60px;
   color: var(--color-light);
 }
+
+@media (max-width: 992px) {
+  .promo {
+    background-image: url('../../images/promo/promo-bg-tablet.jpg');
+  }
+
+  .promo__image,
+  .promo__description {
+    margin-bottom: 30px;
+  }
+
+  .promo__image {
+    max-width: 450px;
+  }
+
+  .promo__description {
+    max-width: 100%;
+  }
+}

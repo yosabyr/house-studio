@@ -37,6 +37,7 @@
 
   .team__body {
     row-gap: 30px;
+    margin-bottom: 0;
   }
 }
 
@@ -57,5 +58,15 @@
   .team__description {
     font-size: 16px;
     line-height: 1.4;
+  }
+}
+
+@media (max-width: 390px) {
+  .team {
+    margin-block: 60px 94px;
+  }
+
+  .team__list {
+    column-gap: 25px;
   }
 }

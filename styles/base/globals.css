@@ -12,10 +12,15 @@ svg * {
   transition-duration: var(--transition-duration);
 }
 
+a {
+  text-decoration: none;
+}
+
 h1, .h1,
 h2, .h2 {
   font-weight: 500;
   line-height: 1.1;
+  color: var(--color-dark);
 }
 
 h1, .h1 {
@@ -27,7 +32,7 @@ h2, .h2 {
 }
 
 :focus-visible {
-  outline: 2px dashed var(--color-light);
+  outline: 2px dashed var(--color-green);
   outline-offset: 4px;
   transition-duration: 0s !important;
 }

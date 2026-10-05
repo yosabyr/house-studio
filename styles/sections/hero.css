@@ -1,0 +1,22 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 30px;
+}
+
+.hero__title {
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  & span {
+    color: var(--color-green);
+  }
+}
+
+.hero__description {
+  &:not(:last-child) {
+    margin-bottom: 60px;
+  }
+}

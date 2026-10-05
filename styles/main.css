@@ -6,5 +6,7 @@
 
 @import 'components/button.css';
 
+@import 'layouts/footer.css';
+
 @import 'sections/hero.css';
 @import 'sections/team.css';

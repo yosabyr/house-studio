@@ -31,3 +31,9 @@
     --button-height: 60px;
   }
 }
+
+@media (max-width: 576px) {
+  :root {
+    --button-height: 50px;
+  }
+}

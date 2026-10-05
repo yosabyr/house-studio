@@ -16,12 +16,32 @@
   }
 
   &:active {
+    color: var(--color-light);
     background-color: var(--color-dark-green);
   }
 
   &:focus-visible {
     color: var(--color-green);
     background-color: var(--color-light-green-alt);
+  }
+
+  &.yellow {
+    max-width: 257px;
+    color: var(--color-dark);
+    background-color: var(--color-yellow);
+    border-color: transparent;
+
+    &:hover {
+      background-color: #FAEB97;
+    }
+
+    &:active {
+      background-color: #D9B949;
+    }
+
+    &:focus-visible {
+      border-color: #A38314;
+    }
   }
 }
 

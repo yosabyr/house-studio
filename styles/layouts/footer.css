@@ -57,6 +57,10 @@
   column-gap: 30px;
 }
 
+.footer__soc1als-item {
+  display: flex;
+}
+
 .footer__soc1als-link {
   color: var(--color-dark);
 }
@@ -68,4 +72,17 @@
   font-size: 12px;
   line-height: 1.2;
   color: var(--color-gray);
+}
+
+@media (max-width: 992px) {
+  .footer__inner {
+    display: grid;
+    grid-template-columns: 1fr 170px;
+    grid-template-rows: auto 1fr;
+    row-gap: 30px;
+  }
+
+  .footer__main {
+    display: contents;
+  }
 }

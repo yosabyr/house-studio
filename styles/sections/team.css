@@ -39,3 +39,23 @@
     row-gap: 30px;
   }
 }
+
+@media (max-width: 576px) {
+  .team {
+    row-gap: 30px;
+    margin-block: 50px;
+  }
+
+  .team__image {
+    max-width: 375px;
+  }
+
+  .team__body {
+    row-gap: 20px;
+  }
+
+  .team__description {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+}

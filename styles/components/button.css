@@ -1,8 +1,9 @@
 .button {
   display: inline-flex;
+  justify-content: center;
   align-items: center;
   height: var(--button-height);
-  padding: 20px 60px;
+  padding-inline: 60px;
   font-weight: 500;
   font-size: 20px;
   color: var(--color-green);
@@ -22,5 +23,11 @@
   &:focus-visible {
     color: var(--color-green);
     background-color: var(--color-light-green-alt);
+  }
+}
+
+@media (max-width: 768px) {
+  .button {
+    max-width: 210px;
   }
 }

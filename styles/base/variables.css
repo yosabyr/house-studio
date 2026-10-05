@@ -21,7 +21,13 @@
   --button-height: 65px;
 
   --container-width: 1100px;
-  --container-padding-x: 15px;
+  --container-padding-x: 40px;
 
   --transition-duration: 0.2s;
+}
+
+@media (max-width: 768px) {
+  :root {
+    --button-height: 60px;
+  }
 }

@@ -86,3 +86,34 @@
     display: contents;
   }
 }
+
+@media (max-width: 576px) {
+  .footer__inner {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0;
+  }
+
+  .footer__main {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+
+  .footer__menu {
+    justify-content: space-around;
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--color-light-green-muted);
+  }
+
+  .footer__extra {
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+  }
+
+  .footer__copyright {
+    flex-direction: row;
+  }
+}

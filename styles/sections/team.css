@@ -22,3 +22,20 @@
   display: flex;
   column-gap: 30px;
 }
+
+@media (max-width: 992px) {
+  .team {
+    flex-direction: column;
+    align-items: start;
+    row-gap: 40px;
+  }
+
+  .team__image {
+    width: 100%;
+    max-width: 510px;
+  }
+
+  .team__body {
+    row-gap: 30px;
+  }
+}

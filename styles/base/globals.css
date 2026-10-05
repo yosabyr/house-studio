@@ -1,0 +1,38 @@
+body {
+  font-family: var(--font-family-base);
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--color-gray);
+  background-color: var(--color-light-alt);
+}
+
+a,
+button,
+svg * {
+  transition-duration: var(--transition-duration);
+}
+
+h1, .h1,
+h2, .h2 {
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+h1, .h1 {
+  font-size: 60px;
+}
+
+h2, .h2 {
+  font-size: 40px;
+}
+
+:focus-visible {
+  outline: 2px dashed var(--color-light);
+  outline-offset: 4px;
+  transition-duration: 0s !important;
+}
+
+::selection {
+  color: var(--color-light-alt);
+  background-color: var(--color-green);
+}

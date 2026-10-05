@@ -56,6 +56,11 @@
   .button {
     max-width: 178px;
     font-size: 18px;
+
+    &.yellow {
+      max-width: 190px;
+      font-size: 18px;
+    }
   }
 }
 

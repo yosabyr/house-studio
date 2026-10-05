@@ -38,3 +38,9 @@
     font-size: 18px;
   }
 }
+
+@media (max-width: 390px) {
+  .button {
+    max-width: 154px;
+  }
+}

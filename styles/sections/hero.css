@@ -32,7 +32,7 @@
 @media (max-width: 576px) {
   .hero {
     grid-template-columns: 195px 1fr;
-    padding: 50px 33px;
+    padding-block: 50px;
   }
 
   .hero__title,
@@ -48,5 +48,32 @@
 
   .hero__description {
     font-size: 16px;
+  }
+}
+
+@media (max-width: 390px) {
+  .hero {
+    grid-template-columns: 1fr;
+    padding-block: 60px;
+  }
+
+  .hero__title {
+    font-size: 30px;
+
+    &:not(:last-child) {
+      margin-bottom: 20px;
+    }
+  }
+
+  .hero__description {
+    font-size: 14px;
+
+    &:not(:last-child) {
+      margin-bottom: 40px;
+    }
+  }
+
+  .hero__image {
+    display: none;
   }
 }

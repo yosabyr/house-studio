@@ -29,11 +29,21 @@
 @media (max-width: 768px) {
   :root {
     --button-height: 60px;
+
+    --container-padding-x: 33px;
   }
 }
 
 @media (max-width: 576px) {
   :root {
     --button-height: 50px;
+
+    --container-padding-x: 33px;
+  }
+}
+
+@media (max-width: 390px) {
+  :root {
+    --container-padding-x: 15px;
   }
 }

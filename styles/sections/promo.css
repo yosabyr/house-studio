@@ -1,0 +1,14 @@
+.promo {
+  padding-block: 70px;
+  background: url('../../images/promo/promo-bg.jpg') center / cover no-repeat;
+}
+
+.promo__image {
+  margin-bottom: 20px;
+}
+
+.promo__description {
+  max-width: 540px;
+  margin-bottom: 60px;
+  color: var(--color-light);
+}

@@ -1,0 +1,34 @@
+.product-card {
+  padding: 20px 20px 30px 20px;
+  background-color: var(--color-light-green);
+}
+
+.product-card__image {
+  margin-bottom: 20px;
+}
+
+.product-card__author {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.product-card__title {
+  margin-bottom: 8px;
+  font-size: 30px;
+  color: var(--color-dark);
+}
+
+.product-card__description {
+  margin-bottom: 30px;
+  color: var(--color-dark);
+}
+
+.product-card__price {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: var(--color-green);
+}
+
+.product-card__btn {
+  width: 100%;
+}

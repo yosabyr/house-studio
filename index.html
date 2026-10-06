@@ -96,6 +96,377 @@
           <a class="hero__link button" href="/">Продукция</a>
         </div>
       </section>
+      <section class="catalog" id="catalog" data-js-tabs>
+        <div class="catalog__inner container">
+          <div class="catalog__header">
+            <h2 class="catalog__title">Репродукции</h2>
+            <div class="catalog__tabs tabs" role="tablist" aria-label="Страны репродукций">
+              <button
+                type="button" class="tabs__btn is-active"
+                id="tab-france" role="tab" aria-selected="true"
+                aria-controls="panel-france" tabindex="0"
+                data-js-tabs-button="france"
+              >
+                Франция
+              </button>
+              <button
+                class="tabs__btn" type="button"
+                id="tab-germany" role="tab" aria-selected="false"
+                aria-controls="panel-germany" tabindex="-1"
+                data-js-tabs-button="germany"
+              >
+                Германия
+              </button>
+              <button
+                class="tabs__btn" type="button" id="tab-england"
+                role="tab" aria-selected="false"
+                aria-controls="panel-england"
+                data-js-tabs-button="england"
+                tabindex="-1"
+              >
+                Англия
+              </button>
+            </div>
+          </div>
+          <div class="catalog__content">
+            <div
+              class="catalog__panel tabs__panel is-active"
+              id="panel-france" role="tabpanel"
+              aria-labelledby="tab-france"
+              data-js-tabs-panel="france"
+            >
+              <ul class="catalog__grid">
+                <li class="catalog__item">
+                  <article class="product-card">
+                    <img
+                      class="product-card__image"
+                      src="./images/catalog/france/1.jpg"
+                      alt="Картина «Охота Амура»"
+                      width="310" height="422" loading="lazy"
+                    />
+                    <div class="product-card__content">
+                      <span class="product-card__author">Марсель Руссо</span>
+                      <h3 class="product-card__title">Охота Амура</h3>
+                      <p class="product-card__description">Холст, масло (50x80)</p>
+                      <div class="product-card__price">14 500 руб</div>
+                      <button type="button" class="product-card__btn button">В корзину</button>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog__item">
+                  <article class="product-card">
+                    <img
+                      class="product-card__image"
+                      src="./images/catalog/france/2.jpg"
+                      alt="Картина «Дама с собачкой»"
+                      width="310" height="422" loading="lazy"
+                    />
+                    <div class="product-card__content">
+                      <span class="product-card__author">Анри Селин</span>
+                      <h3 class="product-card__title">Дама с собачкой</h3>
+                      <p class="product-card__description">Акрил, бумага (50x80)</p>
+                      <div class="product-card__price">16 500 руб</div>
+                      <button type="button" class="product-card__btn button">В корзину</button>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog__item">
+                  <article class="product-card">
+                    <img
+                      class="product-card__image"
+                      src="./images/catalog/france/3.jpg"
+                      alt="Картина «Процедура»"
+                      width="310" height="422" loading="lazy"
+                    />
+                    <div class="product-card__content">
+                      <span class="product-card__author">Франсуа Дюпон</span>
+                      <h3 class="product-card__title">Процедура</h3>
+                      <p class="product-card__description">Цветная литография (40x60)</p>
+                      <div class="product-card__price">20 000 руб</div>
+                      <button type="button" class="product-card__btn button">В корзину</button>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog__item">
+                  <article class="product-card">
+                    <img
+                      class="product-card__image"
+                      src="./images/catalog/france/4.jpg"
+                      alt="Картина «Роза»"
+                      width="310" height="422" loading="lazy"
+                    />
+                    <div class="product-card__content">
+                      <span class="product-card__author">Луи Детуш</span>
+                      <h3 class="product-card__title">Роза</h3>
+                      <p class="product-card__description">Бумага, акрил (50x80)</p>
+                      <div class="product-card__price">12 000 руб</div>
+                      <button type="button" class="product-card__btn button">В корзину</button>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog__item">
+                  <article class="product-card">
+                    <img
+                      class="product-card__image"
+                      src="./images/catalog/france/5.jpg"
+                      alt="Картина «Птичья трапеза»"
+                      width="310" height="422" loading="lazy"
+                    />
+                    <div class="product-card__content">
+                      <span class="product-card__author">Франсуа Дюпон</span>
+                      <h3 class="product-card__title">Птичья трапеза</h3>
+                      <p class="product-card__description">Цветная литография (40x60)</p>
+                      <div class="product-card__price">22 500 руб</div>
+                      <button type="button" class="product-card__btn button">В корзину</button>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog__item">
+                  <article class="product-card">
+                    <img
+                      class="product-card__image"
+                      src="./images/catalog/france/6.jpg"
+                      alt="Картина «Пейзаж с рыбой»"
+                      width="310" height="422" loading="lazy"
+                    />
+                    <div class="product-card__content">
+                      <span class="product-card__author">Пьер Моранж</span>
+                      <h3 class="product-card__title">Пейзаж с рыбой</h3>
+                      <p class="product-card__description">Цветная литография (40x60)</p>
+                      <div class="product-card__price">20 000 руб</div>
+                      <button type="button" class="product-card__btn button">В корзину</button>
+                    </div>
+                  </article>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="catalog__panel tabs__panel"
+              id="panel-germany" role="tabpanel"
+              aria-labelledby="tab-germany"
+              data-js-tabs-panel="germany"
+              hidden
+            >
+              <ul class="catalog__grid">
+                <li class="catalog__item">
+                  <article class="product-card">
+                    <img
+                      class="product-card__image"
+                      src="./images/catalog/germany/1.jpg"
+                      alt="Картина «Над городом»"
+                      width="310" height="422" loading="lazy"
+                    />
+                    <div class="product-card__content">
+                      <span class="product-card__author">Курт Вернер</span>
+                      <h3 class="product-card__title">Над городом</h3>
+                      <p class="product-card__description">Цветная литография (40x60)</p>
+                      <div class="product-card__price">16 000 руб</div>
+                      <button type="button" class="product-card__btn button">В корзину</button>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog__item">
+                  <article class="product-card">
+                    <img
+                      class="product-card__image"
+                      src="./images/catalog/germany/2.jpg"
+                      alt="Картина «Птенцы»"
+                      width="310" height="422" loading="lazy"
+                    />
+                    <div class="product-card__content">
+                      <span class="product-card__author">Макс Рихтер</span>
+                      <h3 class="product-card__title">Птенцы</h3>
+                      <p class="product-card__description">Холст, масло (50x80)</p>
+                      <div class="product-card__price">14 500 руб</div>
+                      <button type="button" class="product-card__btn button">В корзину</button>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog__item">
+                  <article class="product-card">
+                    <img
+                      class="product-card__image"
+                      src="./images/catalog/germany/3.jpg"
+                      alt="Картина «Среди листьев»"
+                      width="310" height="422" loading="lazy"
+                    />
+                    <div class="product-card__content">
+                      <span class="product-card__author">Мартин Майер</span>
+                      <h3 class="product-card__title">Среди листьев</h3>
+                      <p class="product-card__description">Цветная литография (40x60)</p>
+                      <div class="product-card__price">20 000 руб</div>
+                      <button type="button" class="product-card__btn button">В корзину</button>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog__item">
+                  <article class="product-card">
+                    <img
+                      class="product-card__image"
+                      src="./images/catalog/germany/4.jpg"
+                      alt="Картина «Яркая птица»"
+                      width="310" height="422" loading="lazy"
+                    />
+                    <div class="product-card__content">
+                      <span class="product-card__author">Герман Беккер</span>
+                      <h3 class="product-card__title">Яркая птица</h3>
+                      <p class="product-card__description">Цветная литография (40x60)</p>
+                      <div class="product-card__price">13 000 руб</div>
+                      <button type="button" class="product-card__btn button">В корзину</button>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog__item">
+                  <article class="product-card">
+                    <img
+                      class="product-card__image"
+                      src="./images/catalog/germany/5.jpg"
+                      alt="Картина «Дятлы»"
+                      width="310" height="422" loading="lazy"
+                    />
+                    <div class="product-card__content">
+                      <span class="product-card__author">Вульф Бауэр</span>
+                      <h3 class="product-card__title">Дятлы</h3>
+                      <p class="product-card__description">Бумага, акрил (50x80)</p>
+                      <div class="product-card__price">20 000 руб</div>
+                      <button type="button" class="product-card__btn button">В корзину</button>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog__item">
+                  <article class="product-card">
+                    <img
+                      class="product-card__image"
+                      src="./images/catalog/germany/6.jpg"
+                      alt="Картина «Большие воды»"
+                      width="310" height="422" loading="lazy"
+                    />
+                    <div class="product-card__content">
+                      <span class="product-card__author">Вальтер Хартманн</span>
+                      <h3 class="product-card__title">Большие воды</h3>
+                      <p class="product-card__description">Бумага, акрил (50x80)</p>
+                      <div class="product-card__price">23 000 руб</div>
+                      <button type="button" class="product-card__btn button">В корзину</button>
+                    </div>
+                  </article>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="catalog__panel tabs__panel"
+              id="panel-england" role="tabpanel"
+              aria-labelledby="tab-england"
+              data-js-tabs-panel="england"
+              hidden
+            >
+              <ul class="catalog__grid">
+                <li class="catalog__item">
+                  <article class="product-card">
+                    <img
+                      class="product-card__image"
+                      src="./images/catalog/england/1.jpg"
+                      alt="Картина «Дикий зверь»"
+                      width="310" height="422" loading="lazy"
+                    />
+                    <div class="product-card__content">
+                      <span class="product-card__author">Пол Смит</span>
+                      <h3 class="product-card__title">Дикий зверь</h3>
+                      <p class="product-card__description">Акварель, бумага (50x80)</p>
+                      <div class="product-card__price">19 500 руб</div>
+                      <button type="button" class="product-card__btn button">В корзину</button>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog__item">
+                  <article class="product-card">
+                    <img
+                      class="product-card__image"
+                      src="./images/catalog/england/2.jpg"
+                      alt="Картина «Скалистый берег»"
+                      width="310" height="422" loading="lazy"
+                    />
+                    <div class="product-card__content">
+                      <span class="product-card__author">Джон Уайт</span>
+                      <h3 class="product-card__title">Скалистый берег</h3>
+                      <p class="product-card__description">Цветная литография (40x60)</p>
+                      <div class="product-card__price">17 500 руб</div>
+                      <button type="button" class="product-card__btn button">В корзину</button>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog__item">
+                  <article class="product-card">
+                    <img
+                      class="product-card__image"
+                      src="./images/catalog/england/3.jpg"
+                      alt="Картина «Река и горы»"
+                      width="310" height="422" loading="lazy"
+                    />
+                    <div class="product-card__content">
+                      <span class="product-card__author">Джим Уотсон</span>
+                      <h3 class="product-card__title">Река и горы</h3>
+                      <p class="product-card__description">Акварель, бумага (50x80)</p>
+                      <div class="product-card__price">20 500 руб</div>
+                      <button type="button" class="product-card__btn button">В корзину</button>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog__item">
+                  <article class="product-card">
+                    <img
+                      class="product-card__image"
+                      src="./images/catalog/england/4.jpg"
+                      alt="Картина «Белый попугай»"
+                      width="310" height="422" loading="lazy"
+                    />
+                    <div class="product-card__content">
+                      <span class="product-card__author">Юджин Зиллион</span>
+                      <h3 class="product-card__title">Белый попугай</h3>
+                      <p class="product-card__description">Цветная литография (40x60)</p>
+                      <div class="product-card__price">15 500 руб</div>
+                      <button type="button" class="product-card__btn button">В корзину</button>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog__item">
+                  <article class="product-card">
+                    <img
+                      class="product-card__image"
+                      src="./images/catalog/england/5.jpg"
+                      alt="Картина «Ночная рыба»"
+                      width="310" height="422" loading="lazy"
+                    />
+                    <div class="product-card__content">
+                      <span class="product-card__author">Эрик Гиллман</span>
+                      <h3 class="product-card__title">Ночная рыба</h3>
+                      <p class="product-card__description">Бумага, акрил (50x80)</p>
+                      <div class="product-card__price">12 500 руб</div>
+                      <button type="button" class="product-card__btn button">В корзину</button>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog__item">
+                  <article class="product-card">
+                    <img
+                      class="product-card__image"
+                      src="./images/catalog/england/6.jpg"
+                      alt="Картина «Рыжий кот»"
+                      width="310" height="422" loading="lazy"
+                    />
+                    <div class="product-card__content">
+                      <span class="product-card__author">Альфред Барр</span>
+                      <h3 class="product-card__title">Рыжий кот</h3>
+                      <p class="product-card__description">Цветная литография (40x60)</p>
+                      <div class="product-card__price">21 000 руб</div>
+                      <button type="button" class="product-card__btn button">В корзину</button>
+                    </div>
+                  </article>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
       <section class="promo" id="promo">
         <div class="promo__inner container">
           <img

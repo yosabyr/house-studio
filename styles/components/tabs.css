@@ -1,0 +1,23 @@
+.tabs {
+  display: flex;
+  align-items: center;
+  column-gap: 32px;
+}
+
+.tabs__btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 43px;
+  padding: 10px 20px;
+  font-size: 20px;
+  color: var(--color-dark);
+  background-color: var(--color-light-green-alt);
+  border: none;
+  border-radius: var(--border-radius);
+
+  &.is-active {
+    color: var(--color-light-alt);
+    background-color: var(--color-dark-green);
+  }
+}

@@ -20,6 +20,21 @@
   border: none;
   border-radius: var(--border-radius);
 
+  &:hover {
+    color: var(--color-light-alt);
+    background-color: var(--color-green);
+  }
+
+  &:active {
+    background-color: var(--color-dark-green);
+  }
+
+  &:focus-visible {
+    color: var(--color-dark);
+    background-color: var(--color-light-green-alt);
+    border: 2px solid var(--color-green);
+  }
+
   &.is-active {
     color: var(--color-light-alt);
     background-color: var(--color-dark-green);

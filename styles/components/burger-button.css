@@ -1,8 +1,23 @@
 .burger-button {
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 5px;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border: none;
 }
 
-@media (min-width: 391px) {
+.burger-button__line {
+  width: 20px;
+  height: 2px;
+  background-color: #4C5866;
+  border-radius: 1rem;
+}
+
+@media (min-width: 577px) {
   .burger-button {
     display: none;
   }

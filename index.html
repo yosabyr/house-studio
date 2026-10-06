@@ -11,9 +11,10 @@
     <link rel="manifest" href="./favicon/site.webmanifest" />
     <title>House Studio</title>
     <link rel="stylesheet" href="./styles/main.css" />
+    <script src="./scripts/main.js" type="module"></script>
   </head>
   <body>
-    <header class="header">
+    <header class="header" data-js-header>
       <div class="header__inner container">
         <a class="header__logo" href="/">
           <img
@@ -23,27 +24,30 @@
           />
         </a>
         <div class="header__overlay">
-          <nav class="header__menu">
+          <nav class="header__menu" data-js-header-menu>
             <ul class="header__menu-list">
               <li class="header__menu-item">
-                <a class="header__menu-link" href="/">
+                <a class="header__menu-link" href="#catalog">
                   Репродукции
                 </a>
               </li>
               <li class="header__menu-item">
-                <a class="header__menu-link" href="/">
+                <a class="header__menu-link" href="#promo">
                   Новинки
                 </a>
               </li>
               <li class="header__menu-item">
-                <a class="header__menu-link" href="/">
+                <a class="header__menu-link" href="#team">
                   О нас
                 </a>
               </li>
             </ul>
           </nav>
-          <button class="header__burger-button burger-button" type="button" title="Open menu">
-            <span class="visually-hidden">Open menu</span>
+          <button
+            class="header__burger-button burger-button"
+            type="button" title="Open menu" aria-label="Open menu"
+            data-js-header-burger-button
+          >
             <span class="burger-button__line"></span>
             <span class="burger-button__line"></span>
             <span class="burger-button__line"></span>
@@ -92,7 +96,7 @@
           <a class="hero__link button" href="/">Продукция</a>
         </div>
       </section>
-      <section class="promo">
+      <section class="promo" id="promo">
         <div class="promo__inner container">
           <img
             class="promo__image"
@@ -114,7 +118,7 @@
           <a class="promo__link button yellow" href="/">Ознакомиться</a>
         </div>
       </section>
-      <section class="team container">
+      <section class="team container" id="team">
         <img
           class="team__image"
           src="./images/backgrounds/team-bg.png"

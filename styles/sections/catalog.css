@@ -1,0 +1,18 @@
+.catalog__inner {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  padding-block: 70px;
+}
+
+.catalog__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.catalog__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}

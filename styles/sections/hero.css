@@ -41,6 +41,10 @@
 }
 
 @media (max-width: 576px) {
+  .hero {
+    padding-top: 180px;
+  }
+
   .hero__title,
   .hero__description {
     &:not(:last-child) {
@@ -59,7 +63,7 @@
 
 @media (max-width: 390px) {
   .hero {
-    padding-block: 60px;
+    padding-block: 190px 60px;
   }
 
   .hero__title {

@@ -4,8 +4,10 @@
 @import 'base/utils.css';
 @import 'base/globals.css';
 
+@import 'components/burger-button.css';
 @import 'components/button.css';
 
+@import 'layouts/header.css';
 @import 'layouts/footer.css';
 
 @import 'sections/hero.css';

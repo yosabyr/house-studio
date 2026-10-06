@@ -14,53 +14,65 @@
   </head>
   <body>
     <header class="header">
-      <a class="header__logo" href="/">
-        <img
-          class="header__logo-image" src="./images/logo.svg"
-          alt="House Studio" width="143" height="35"
-          loading="lazy"
-        />
-      </a>
-      <div class="header__overlay">
-        <nav class="header__menu">
-          <ul class="header__menu-list">
-            <li class="header__menu-item">
-              <a class="header__menu-link" href="/">
-                Репродукции
-              </a>
-            </li>
-            <li class="header__menu-item">
-              <a class="header__menu-link" href="/">
-                Новинки
-              </a>
-            </li>
-            <li class="header__menu-item">
-              <a class="header__menu-link" href="/">
-                О нас
-              </a>
-            </li>
-          </ul>
-        </nav>
-        <button class="header__burger-button burger-button" type="button" title="Open menu">
-          <span class="visually-hidden">Open menu</span>
-          <span class="burger-button__line"></span>
-          <span class="burger-button__line"></span>
-          <span class="burger-button__line"></span>
-        </button>
-        <button class="header__cart-button" type="button">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <g clip-path="url(#clip0_22_588)">
-              <path d="M9.25016 21.1667C9.75642 21.1667 10.1668 20.7563 10.1668 20.25C10.1668 19.7438 9.75642 19.3334 9.25016 19.3334C8.7439 19.3334 8.3335 19.7438 8.3335 20.25C8.3335 20.7563 8.7439 21.1667 9.25016 21.1667Z" stroke="#2C2D35" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-              <path d="M19.3332 21.1667C19.8394 21.1667 20.2498 20.7563 20.2498 20.25C20.2498 19.7438 19.8394 19.3334 19.3332 19.3334C18.8269 19.3334 18.4165 19.7438 18.4165 20.25C18.4165 20.7563 18.8269 21.1667 19.3332 21.1667Z" stroke="#2C2D35" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-              <path d="M1.9165 1.91663H5.58317L8.03984 14.1908C8.12366 14.6128 8.35325 14.9919 8.68842 15.2617C9.02359 15.5315 9.44298 15.6749 9.87317 15.6666H18.7832C19.2134 15.6749 19.6328 15.5315 19.9679 15.2617C20.3031 14.9919 20.5327 14.6128 20.6165 14.1908L22.0832 6.49996H6.49984" stroke="#2C2D35" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            </g>
-            <defs>
-              <clipPath id="clip0_22_588">
-                <rect width="22" height="22" fill="white" transform="translate(1 1)"/>
-              </clipPath>
-            </defs>
-          </svg>
-        </button>
+      <div class="header__inner container">
+        <a class="header__logo" href="/">
+          <img
+            class="header__logo-image" src="./images/logo.svg"
+            alt="House Studio" width="143" height="35"
+            loading="lazy"
+          />
+        </a>
+        <div class="header__overlay">
+          <nav class="header__menu">
+            <ul class="header__menu-list">
+              <li class="header__menu-item">
+                <a class="header__menu-link" href="/">
+                  Репродукции
+                </a>
+              </li>
+              <li class="header__menu-item">
+                <a class="header__menu-link" href="/">
+                  Новинки
+                </a>
+              </li>
+              <li class="header__menu-item">
+                <a class="header__menu-link" href="/">
+                  О нас
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <button class="header__burger-button burger-button" type="button" title="Open menu">
+            <span class="visually-hidden">Open menu</span>
+            <span class="burger-button__line"></span>
+            <span class="burger-button__line"></span>
+            <span class="burger-button__line"></span>
+          </button>
+          <button class="header__cart-button" type="button">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                 xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_22_588)">
+                <path
+                  d="M9.25016 21.1667C9.75642 21.1667 10.1668 20.7563 10.1668 20.25C10.1668 19.7438 9.75642 19.3334 9.25016 19.3334C8.7439 19.3334 8.3335 19.7438 8.3335 20.25C8.3335 20.7563 8.7439 21.1667 9.25016 21.1667Z"
+                  stroke="#2C2D35" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" />
+                <path
+                  d="M19.3332 21.1667C19.8394 21.1667 20.2498 20.7563 20.2498 20.25C20.2498 19.7438 19.8394 19.3334 19.3332 19.3334C18.8269 19.3334 18.4165 19.7438 18.4165 20.25C18.4165 20.7563 18.8269 21.1667 19.3332 21.1667Z"
+                  stroke="#2C2D35" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" />
+                <path
+                  d="M1.9165 1.91663H5.58317L8.03984 14.1908C8.12366 14.6128 8.35325 14.9919 8.68842 15.2617C9.02359 15.5315 9.44298 15.6749 9.87317 15.6666H18.7832C19.2134 15.6749 19.6328 15.5315 19.9679 15.2617C20.3031 14.9919 20.5327 14.6128 20.6165 14.1908L22.0832 6.49996H6.49984"
+                  stroke="#2C2D35" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </g>
+              <defs>
+                <clipPath id="clip0_22_588">
+                  <rect width="22" height="22" fill="white" transform="translate(1 1)" />
+                </clipPath>
+              </defs>
+            </svg>
+          </button>
+        </div>
       </div>
     </header>
     <main class="content">

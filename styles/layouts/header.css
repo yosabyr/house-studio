@@ -1,0 +1,30 @@
+.header {
+  background-color: var(--color-light-green);
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.header__overlay,
+.header__menu-list {
+  display: flex;
+  align-items: center;
+  column-gap: 60px;
+}
+
+.header__menu-link {
+  font-size: 20px;
+  color: var(--color-dark);
+}
+
+.header__cart-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+}

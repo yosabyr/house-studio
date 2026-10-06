@@ -29,12 +29,18 @@
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .hero {
-    grid-template-columns: 195px 1fr;
+    grid-template-columns: 1fr;
     padding-block: 50px;
   }
 
+  .hero__image {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
   .hero__title,
   .hero__description {
     &:not(:last-child) {
@@ -53,7 +59,6 @@
 
 @media (max-width: 390px) {
   .hero {
-    grid-template-columns: 1fr;
     padding-block: 60px;
   }
 
@@ -71,9 +76,5 @@
     &:not(:last-child) {
       margin-bottom: 40px;
     }
-  }
-
-  .hero__image {
-    display: none;
   }
 }

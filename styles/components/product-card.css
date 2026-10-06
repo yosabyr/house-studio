@@ -32,4 +32,25 @@
 
 .product-card__btn {
   width: 100%;
+  max-width: 100%;
+}
+
+@media (max-width: 576px) {
+  .product-card__image {
+    margin-bottom: 15px;
+  }
+
+  .product-card__author,
+  .product-card__description {
+    font-size: 16px;
+  }
+
+  .product-card__title {
+    margin-bottom: 10px;
+  }
+
+  .product-card__price {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
 }

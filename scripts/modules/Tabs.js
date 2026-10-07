@@ -22,6 +22,7 @@ export class Tabs {
 
     this.buttonElements.forEach((button) => {
       const isActive = button === buttonElement
+      
       button.classList.toggle(this.stateClasses.isActive, isActive)
       button.setAttribute('aria-selected', isActive)
       button.setAttribute('tabindex', isActive ? '0' : '-1')
@@ -29,6 +30,7 @@ export class Tabs {
 
     this.panelElements.forEach((panel) => {
       const isActive = panel.dataset.jsTabsPanel === targetTabId
+      
       panel.classList.toggle(this.stateClasses.isActive, isActive)
       panel.hidden = !isActive
     })

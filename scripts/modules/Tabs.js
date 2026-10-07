@@ -11,11 +11,6 @@ export class Tabs {
 
   constructor() {
     this.rootElement = document.querySelector(this.selectors.root)
-
-    if (!this.rootElement) {
-      return
-    }
-
     this.buttonElements = this.rootElement.querySelectorAll(this.selectors.button)
     this.panelElements = this.rootElement.querySelectorAll(this.selectors.panel)
     this.bindEvents()
@@ -23,16 +18,7 @@ export class Tabs {
 
   onRootClick = (event) => {
     const buttonElement = event.target.closest(this.selectors.button)
-
-    if (!buttonElement || !this.rootElement.contains(buttonElement)) {
-      return
-    }
-
     const targetTabId = buttonElement.dataset.jsTabsButton
-
-    if (buttonElement.classList.contains(this.stateClasses.isActive)) {
-      return
-    }
 
     this.buttonElements.forEach((button) => {
       const isActive = button === buttonElement
